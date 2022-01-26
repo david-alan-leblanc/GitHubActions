@@ -32,7 +32,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: look for ps1 file
         run: |
-          ls '${{} env.OUTPUT_PATH }}\IaC\AzCLI'
+          ls '${{ env.OUTPUT_PATH }}\IaC\AzCLI'
 
       # Runs a set of commands using the runners shell
       - name: provision virtual machine in azure
