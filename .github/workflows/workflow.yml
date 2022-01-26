@@ -3,7 +3,7 @@
 name: GitHub for IT Pro CI/CD Pipeline
 
 env:
-  OUTPUT_PATH: ${{ github.workspace}}
+  OUTPUT_PATH: ${{ github.workspace }}
 
 # Controls when the workflow will run
 on:
